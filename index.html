@@ -2,11 +2,12 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<!-- <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap" rel="stylesheet">  -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
 	<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 	<title>Hotel Ramanam</title>
 </head>
 <body>
@@ -62,57 +63,59 @@
 			
 	</section>
 
-	<section>
+	<section class="owl-carousel">	
+		 <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
 
-		<div class="owl-carousel owl-theme">
-	  <div class="owl-slide d-flex align-items-center cover" style="background-image: url(img/hr-1.jpg);">
-	    <div class="container">
-	      <div class="row justify-content-center justify-content-md-start">
-	        <div class="col-10 col-md-6 static">
-	          <div class="owl-slide-text">
-	            <h2 class="owl-slide-animated owl-slide-title">The bedding was hardly able to cover it</h2>
-	            <div class="owl-slide-animated owl-slide-subtitle mb-3">
-	              One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin.
-	            </div>
-	            <a class="btn btn-primary owl-slide-animated owl-slide-cta" href="https://unsplash.com/photos/pgR4yBMjum8" target="_blank" role="button">See Original Image</a>
-	          </div>
-	        </div>
-	      </div>
-	    </div>
-	  </div><!--/owl-slide-->
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
 
-	  <div class="owl-slide d-flex align-items-center cover" style="background-image: url(img/hr-2.jpg);">
-	    <div class="container">
-	      <div class="row justify-content-center justify-content-md-start">
-	        <div class="col-10 col-md-6 static">
-	          <div class="owl-slide-text">
-	            <h2 class="owl-slide-animated owl-slide-title">Samsa was a travelling salesman.</h2>
-	            <div class="owl-slide-animated owl-slide-subtitle mb-3">
-	              It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer. Gregor then turned to look out the window at the dull weather.
-	            </div>
-	            <a class="btn btn-primary owl-slide-animated owl-slide-cta" href="https://unsplash.com/photos/Ijx8OxvKrgM" target="_blank" role="button">See Original Image</a>
-	          </div>
-	        </div>
-	      </div>
-	    </div>
-	  </div><!--/owl-slide-->
+      <div class="item active">
+        <div class="carousel-caption">
+          <h3>Chania</h3>
+          <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+        </div>
+      </div>
 
-	  <div class="owl-slide d-flex align-items-center cover" style="background-image: url(img/hr-3.jpg);">
-	    <div class="container">
-	      <div class="row justify-content-center justify-content-md-start">
-	        <div class="col-10 col-md-6 static">
-	          <div class="owl-slide-text">
-	            <h2 class="owl-slide-animated owl-slide-title">A collection of textile samples.</h2>
-	            <div class="owl-slide-animated owl-slide-subtitle mb-3">
-	              He lay on his armour-like back, and if he lifted his head a little he could see his brown belly.
-	            </div>
-	            <a class="btn btn-primary owl-slide-animated owl-slide-cta" href="https://unsplash.com/photos/7uwbhGSH5Fg" target="_blank" role="button">See Original Image</a>
-	          </div>
-	        </div>
-	      </div>
-	    </div>
-	  </div><!--/owl-slide-->
-		</div>
+      <div class="item">
+        <div class="carousel-caption">
+          <h3>Chania</h3>
+          <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+        </div>
+      </div>
+    
+      <div class="item">
+        <div class="carousel-caption">
+          <h3>Flowers</h3>
+          <p>Beatiful flowers in Kolymbari, Crete.</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="carousel-caption">
+          <h3>Flowers</h3>
+          <p>Beatiful flowers in Kolymbari, Crete.</p>
+        </div>
+      </div>
+  
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
 	</section>
 
 	<div class="container">
@@ -124,7 +127,8 @@
 
 						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit.
 						</p>
-						<a href="about-1.html" class="btn btn-lg btn-padding">View More</a>
+
+						<a href="about-1.html" class="btn-1">View More</a>
 					</div>
 				
 					<div class="h-img">
@@ -239,6 +243,13 @@
 				</div>
 				
 		</section>
+
+		<section class="attractions">
+			<div class="main-attraction">
+				
+			</div>
+			
+		</section>
 	</div
 </body>
 
@@ -263,85 +274,7 @@ $menuBtn.addEventListener("click", () => {
   	
 </script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
-	
-</script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
-<!-- <script type="text/javascript">
-	$(document).ready(function(){
-  $('.my-carousel').owlCarousel({
-    items: 1,
-    loop: true,
-    autoplay: true,
-    dots: true,
-    merge:true,
-    nav: true,
-    navText: ["<span class='nav-main-slider-btn fa fa-chevron-left'></span>","<span class='nav-main-slider-btn fa fa-chevron-right'></span>"],
-    responsive:{
-    0:{
-      items: 2
-     },
-   600:{
-      items: 1
-                                }
-  }
-  });
-})
-</script> -->
-
-<script type="text/javascript">
-	$(".owl-carousel").on("initialized.owl.carousel", () => {
-  setTimeout(() => {
-    $(".owl-item.active .owl-slide-animated").addClass("is-transitioned");
-    $("section").show();
-  }, 200);
-});
-
-const $owlCarousel = $(".owl-carousel").owlCarousel({
-  items: 1,
-  loop: true,
-  nav: true,
-  navText: [
-    '<svg width="50" height="50" viewBox="0 0 24 24"><path d="M16.67 0l2.83 2.829-9.339 9.175 9.339 9.167-2.83 2.829-12.17-11.996z"/></svg>',
-    '<svg width="50" height="50" viewBox="0 0 24 24"><path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"/></svg>' /* icons from https://iconmonstr.com */
-  ]
-});
-
-$owlCarousel.on("changed.owl.carousel", e => {
-  $(".owl-slide-animated").removeClass("is-transitioned");
-
-  const $currentOwlItem = $(".owl-item").eq(e.item.index);
-  $currentOwlItem.find(".owl-slide-animated").addClass("is-transitioned");
-
-  const $target = $currentOwlItem.find(".owl-slide-text");
-  doDotsCalculations($target);
-});
-
-$owlCarousel.on("resize.owl.carousel", () => {
-  setTimeout(() => {
-    setOwlDotsPosition();
-  }, 50);
-});
-
-/*if there isn't content underneath the carousel*/
-//$owlCarousel.trigger("refresh.owl.carousel");
-
-setOwlDotsPosition();
-
-function setOwlDotsPosition() {
-  const $target = $(".owl-item.active .owl-slide-text");
-  doDotsCalculations($target);
-}
-
-function doDotsCalculations(el) {
-  const height = el.height();
-  const {top, left} = el.position();
-  const res = height + top + 20;
-
-  $(".owl-carousel .owl-dots").css({
-    top: `${res}px`,
-    left: `${left}px`
-  });
-}
-</script>
 </html>
