@@ -394,7 +394,18 @@
 .intro{
 	display: grid;
 	grid-template-columns: auto;
-	padding: 20px;
+	/*padding-left: 30px;*/
+}
+
+.intro-message p{
+	padding-top:20px;
+	font-size: 18px;
+	padding-left: 40px;
+
+}
+
+.intro-img img{
+	padding-left: 40px;
 }
 
 .footer{
