@@ -194,11 +194,11 @@
 	background-color: #89a9d55e;
 }
 
-/*.intro-message h1{
-	padding: 10px;
+.intro-message p{
+	text-align: justify;
 }
 
-*/
+
 .intro-img img{
 	width: 100%;
 	height: 100%;
@@ -306,10 +306,6 @@
 	width: 350px;
 }
 
-.enquiry-form {
-	padding: 30px;
-}
-
 .form-field{
 	display: grid;
 	grid-template-columns: auto auto;
@@ -359,6 +355,21 @@
   	box-sizing: border-box;
 }
 
+.events-info {
+	/*width: 100%;*/
+	height: 550px;
+}
+.events-desc h2{
+	padding-left: 55px;
+	/*text-align: center;*/
+}
+
+.events-desc p {
+	text-align: justify;
+	padding-left: 55px;
+	padding-right: 10px;
+}
+
 .services {
 	display: grid;
 	grid-template-columns: auto;
@@ -380,3 +391,4 @@
 	grid-template-columns: auto;
 }
 }
+
