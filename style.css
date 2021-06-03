@@ -248,10 +248,8 @@
 .service-box {
 	border: 1px solid grey;
 	box-shadow: 2px 2px 2px 2px grey;
-	/*padding: 12px 34px;*/
 	text-align: justify;
 	position: relative;
-	/*transition: transform 0.7s;*/
 	border-radius: 0px 14px 14px 0px;
 	height: 320px;
 	width: 255px;
@@ -441,7 +439,7 @@
 
 }
 
-@media only screen and (max-width: 812px) {
+@media only screen and (min-width:481px) and (max-width: 812px) {
 	.services {
 		display: grid;
 		grid-template-columns: auto auto;
@@ -454,7 +452,13 @@
 	.events-img img{
 		width: 100%;
 		object-fit: contain;
+	}
+
+	.footer {
+		display: grid;
+		grid-template-columns: auto auto;
+		grid-column-gap: 15px;
+	}
 }
 
-}
 
