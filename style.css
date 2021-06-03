@@ -182,6 +182,7 @@
 	padding: 75px;
 	grid-column-gap: 50px;
 	min-height: 400px;
+	margin-bottom: 25px;
 	background-color: #89a9d55e;
 }
 
@@ -195,6 +196,11 @@
 	height: 100%;
 	object-fit: contain;
 	
+}
+
+.events{
+	margin-top: 25px;
+	margin-bottom: 25px;
 }
 
 .events-box {
@@ -225,13 +231,14 @@
 }
 
 .our-services {
-	padding: 0 40px 40px 40px;
-	margin: 0 40px 40px 40px;
+	padding: 3px 40px 40px 40px;
+	margin: 25px 40px 40px 40px;
 }
 
 
 .services{
-	padding-top: 20px;
+	padding-top: 25px;
+	padding-bottom: 25px;
 	display: grid;
 	grid-template-columns: repeat(4,255px);
 	grid-gap: 30px;
