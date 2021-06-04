@@ -363,6 +363,16 @@
 	margin: 5px 0 0 0;
 }
 
+.parallax {
+  background-image: url("img/img2.jpg");
+  min-height: 555px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
 .logo {
 	display:none;
 }
@@ -378,17 +388,24 @@
 .intro{
 	display: grid;
 	grid-template-columns: auto;
+	padding-left: 55px;
+	width: 100%;
+	padding-right: 10px;
 }
 
 .intro-img{
-	border: 1px solid gray;
+	/*border: 1px solid gray;*/
   	box-sizing: border-box;
   	height: 370px;
 }
 
-.intro img{
+.intro-img img{
 	width: 100%;
-	object-fit: contain;
+	object-fit: cover;
+}
+
+.events h2{
+	padding-left: 40px;
 }
 
 .events-box {
