@@ -380,6 +380,12 @@
 	grid-template-columns: auto;
 }
 
+.intro-img{
+	border: 1px solid gray;
+  	box-sizing: border-box;
+  	height: 570px;
+}
+
 .intro img{
 	width: 100%;
 	object-fit: contain;
@@ -401,10 +407,7 @@
 	padding-right: 5px;
  	border: 1px solid gray;
   	box-sizing: border-box;
-}
-
-.events-info {
-	height: 570px;
+  	height: 570px;
 }
 
 .events-desc h2{
