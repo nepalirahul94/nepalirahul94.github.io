@@ -470,6 +470,10 @@
     font-size: 1.7em;
 }
 
+.form-field{
+	padding-bottom: 10px;
+}
+
 .footer-map{
 	width: 340px;
 }
