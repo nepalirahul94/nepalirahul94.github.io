@@ -3,7 +3,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Comfortaa', cursive;
 }
 
 .container{
@@ -19,7 +19,6 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /*background-size: 100% 100%;*/
 }
 
 .icon-bar {
@@ -198,8 +197,18 @@
 	
 }
 
+.events-desc h2{
+	text-decoration: underline;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.events-desc p {
+	text-align: justify;
+}
+
 .events{
-	margin-top: 25px;
+	margin-top: 30px;
 	margin-bottom: 25px;
 }
 
@@ -211,10 +220,9 @@
 
 .events-info{
 	width: 100%;
-  	height: 500px;
+  	height: 490px;
   	margin-top:20px;
   	margin-left: 50px;
-  	/*margin-right: 50px;*/
   	padding-left: 10px;
   	padding-right: 10px;
  	border: 1px solid gray;
@@ -303,7 +311,6 @@
 }
 
 .footer-map{
-	/*box-sizing: border-box;*/
 	width: 350px;
 }
 
@@ -314,8 +321,40 @@
 	padding-top: 5px;
 }
 
+.blogs{
+	padding-top: 15px;
+}
+
+.blogs h1{
+	text-align: center;
+}
+
+.blog-grid{
+	display: grid;
+	grid-template-columns: 48% 48%;
+	grid-column-gap: 15px;
+	padding-left: 75px;
+	padding-top: 10px;
+}
+
+.blog-section{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.blog-section img{
+	width: 100%;
+	object-fit: contain;
+}
+
 .footer-info ul{
 	list-style: none;
+}
+
+.footer-map iframe{
+	border:0;
+	padding-top:5px;
+	width: 350px;
 }
 
 @media only screen and (max-width: 768px){
@@ -389,19 +428,6 @@
 	padding: 20px;
 }
 
-.footer{
-	display: grid;
-	grid-template-columns: auto;
-}
-
-.footer-info{
-	padding-top: 10px;
-}
-
-.footer-info li{
-	font-size: 18px;
-}
-
 .menu {
     width: 100%;
     height: auto;
@@ -444,7 +470,35 @@
     font-size: 1.7em;
 }
 
+.footer-map{
+	width: 340px;
 }
+
+.footer-map iframe{
+	border:0;
+	padding-top:5px;
+	width: 340px;
+}
+
+
+.footer{
+	display: grid;
+	grid-template-columns: auto;
+	padding-left: 54px;
+	/*padding-right: 0px;*/
+}
+
+.footer-info{
+	padding-top: 10px;
+}
+
+.footer-info li{
+	font-size: 18px;
+}
+
+
+}
+
 
 @media only screen and (min-width:481px) and (max-width: 812px) {
 	.services {
