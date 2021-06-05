@@ -73,7 +73,6 @@
 	grid-template-columns: 25% 30% 30% 15%;
 	background: #5987c4b5;
 	padding-left: 18px;
-	/*padding-right: 3px;*/
 }
 
 .top-email {
@@ -300,27 +299,6 @@
   white-space: nowrap;
 }
 
-.footer{
-	padding-top:15px;
-	padding-left:80px;
-	padding-bottom:15px;
-	display: grid;
-	grid-template-columns: 30% 32% 32%;
-	grid-column-gap: 30px;
-	background: #5987c4b5;
-}
-
-.footer-map{
-	width: 350px;
-}
-
-.form-field{
-	display: grid;
-	grid-template-columns: auto auto;
-	grid-column-gap: 5px;
-	padding-top: 5px;
-}
-
 .blogs{
 	padding-top: 15px;
 }
@@ -347,8 +325,67 @@
 	object-fit: contain;
 }
 
+.gallery-title h1{
+	text-align: center;
+	padding-top: 10px;
+}
+
+.gallery-view{
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 80px;
+	display: grid;
+	grid-template-columns: repeat(3,340px);
+	grid-gap: 50px;
+}
+
+.gallery-object img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.gallery-object {
+	border: 1px solid grey;
+	box-shadow: 2px 2px 2px 2px grey;
+	height: 340px;
+	width: 340px;
+	transition: transform .2s;
+}
+
+.gallery-object:hover {
+  transform: scale(1.25); 
+}
+
+.footer{
+	padding-top:15px;
+	padding-left:80px;
+	padding-bottom:15px;
+	display: grid;
+	grid-template-columns: 30% 31% 32%;
+	grid-column-gap: 30px;
+	background: #5987c4b5;
+}
+
+.footer-map{
+	width: 350px;
+}
+
+.form-field{
+	display: grid;
+	grid-template-columns: auto;
+	grid-column-gap: 5px;
+	padding-top: 5px;
+	padding-bottom: 19px;
+}
+
 .footer-info ul{
 	list-style: none;
+	margin-top: -6px;
+}
+
+.footer-info ul li{
+	padding-bottom: 15px;
 }
 
 .footer-map iframe{
@@ -394,7 +431,6 @@
 }
 
 .intro-img{
-	/*border: 1px solid gray;*/
   	box-sizing: border-box;
   	height: 370px;
 }
@@ -495,8 +531,41 @@
     font-size: 1.7em;
 }
 
+.gallery-title h1{
+	text-align: center;
+	padding-top: 10px;
+}
+
+.gallery-view{
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 60px;
+	display: grid;
+	grid-template-columns: repeat(1,300px);
+	grid-gap: 50px;
+}
+
+.gallery-object img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.gallery-object {
+	border: 1px solid grey;
+	box-shadow: 2px 2px 2px 2px grey;
+	height: 340px;
+	width: 300px;
+	transition: transform .2s;
+}
+
+.gallery-object:hover {
+  transform: scale(1.10); 
+}
+
 .form-field{
 	padding-bottom: 10px;
+	padding-right: 50px;
 }
 
 .footer-map{
@@ -514,7 +583,6 @@
 	display: grid;
 	grid-template-columns: auto;
 	padding-left: 54px;
-	/*padding-right: 0px;*/
 }
 
 .footer-info{
@@ -524,7 +592,6 @@
 .footer-info li{
 	font-size: 18px;
 }
-
 
 }
 
