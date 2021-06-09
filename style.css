@@ -197,9 +197,11 @@
 }
 
 .events-desc h2{
-	text-decoration: underline;
+	/*text-decoration: underline;*/
 	text-align: center;
 	padding-bottom: 10px;
+	font-weight: bold;
+	padding-top: 10px;
 }
 
 .events-desc p {
