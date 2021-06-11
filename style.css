@@ -39,7 +39,7 @@
 }
 
 .icon-bar a:hover {
-  background-color: #000;
+  background-color: white;
 }
 
 .facebook {
@@ -67,11 +67,10 @@
   color: white;
 }
 
-
 .top-b {
 	display: grid;
 	grid-template-columns: 25% 30% 30% 15%;
-	background: #5987c4b5;
+	background: #5987c4;
 	padding-left: 18px;
 }
 
@@ -90,6 +89,7 @@
 .top-email h3 {
 	font-size: 15px;
 	color: white;
+	font-weight: bold;
 }
 
 .top-num ul li{
@@ -102,6 +102,7 @@
 .top-num h3{
 	font-size: 15px;
 	color: white;
+	font-weight: bold;
 }
 
 .top-time ul li{
@@ -114,18 +115,27 @@
 .top-time h3{
 	font-size: 15px;
 	color: white;
+	font-weight: bold;
 }
 
 .top-icon{
 	padding-top: 18px;
 }
 
+.fa:hover{
+	opacity: 0.3;
+}
+
 .top-icon ul li{
 	list-style: none;
 	display: inline-grid;
 	grid-template-columns: auto auto auto;
-	grid-column-gap:24px;
+	grid-column-gap:22px;
 }
+
+/*.top-icon:hover i{
+	color:black;
+}*/
 
 .menu {
 	display: none;
@@ -134,7 +144,7 @@
 .top{
 	display: grid;
 	grid-template-columns: 10% 90%;
-	background: #5174a4b0;
+	background: #ffffffb0;
 }
 
 .logo img{
@@ -153,10 +163,9 @@
 	padding-bottom: 5px;
 }
 
-.nav-bar{
-	/*margin:5px;*/
-	color: white;
-}
+/*.nav-bar{
+	color: black;
+}*/
 
 .nav-bar ul li{
 	padding-top: 10px;
@@ -169,12 +178,22 @@
 
 .nav-bar ul li a{
 	text-decoration: none;
-	color: white;
-	font-size: 1.08em;
+	color: #5987c4;
+	font-size: 1.4em;
 	font-weight: bold;
 }
 
+.nav-bar ul li:hover a{
+	/*background-color: #5987c4;*/
+	color: white;
+}
+
+.nav-bar:hover {
+	background-color: #89a9d55e;
+}
+
 .intro {
+	background-image: url('https://preview.colorlib.com/theme/charity2/img/background-2.jpg.webp');
 	display: inline-grid;
 	grid-template-columns: 48% 48%;
 	padding: 75px;
@@ -182,10 +201,12 @@
 	min-height: 400px;
 	margin-bottom: 25px;
 	background-color: #89a9d55e;
+	background-size: cover;
 }
 
 .intro-message p{
 	text-align: justify;
+	color: white;
 }
 
 
@@ -197,7 +218,6 @@
 }
 
 .events-desc h2{
-	/*text-decoration: underline;*/
 	text-align: center;
 	padding-bottom: 10px;
 	font-weight: bold;
