@@ -99,7 +99,7 @@
 
 <section class="intro">
 	<div class="intro-message">
-		<h1 style="text-align:center;color:#819cc8;">WE ARE YOUTH!</h1>
+		<h1>WE ARE YOUTH!</h1>
 		<p style="padding-top:20px;font-size:18px;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit.Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
 		</p>
 	</div>
@@ -223,7 +223,7 @@
 				</div>
 		</section>
 
-		<section class="footer">
+<section class="footer">
 			<div class="footer-map">
 				<h1>LOCATION</h1>
 				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3531.5092064342793!2d85.30593981506262!3d27.73243598278156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb18dc193a2d8f%3A0xa0a580a825c16a24!2sGongabu%20New%20Bus%20Station%20Parking!5e0!3m2!1sen!2snp!4v1622091270583!5m2!1sen!2snp" height="250" allowfullscreen="" loading="lazy"></iframe>
@@ -268,6 +268,49 @@
 			</div>
 </section>
 
+<!-- <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class=""></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2" class=""></li>
+  </ol>
+  <div class="carousel-inner" role="listbox">
+
+    <div class="item active">
+      <div class="carousel-caption">
+        <h3>The 5 Scrum Values</h3>
+        <p>First Slide with your Great Features.</p>
+        <a href="#scrum-values" class="btn btn-success btn-lg" role="button">READ MORE</a>
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="carousel-caption">
+        <h3>1/5 Scrum Values</h3>
+        <p>Second Slide with your Great Features.</p>
+        <a href="#scrum-values" class="btn btn-success btn-lg" role="button">CHECK HERE!</a>
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="carousel-caption">
+        <h3>2/5 Scrum Values</h3>
+        <p>Third Slide with your Great Features.</p>
+        <a href="#scrum-values" class="btn btn-success btn-lg" role="button">LEARN MORE</a>
+      </div>
+    </div>
+
+  </div>
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div> -->
+
 </body>
 <script
   src="http://code.jquery.com/jquery-3.3.1.min.js"
@@ -280,4 +323,20 @@
 </script>
 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+	
+$(function() {
+  $('.carousel').carousel();
+
+  $(".carousel").swipe({
+    swipeRight: function() {
+      $(this).carousel('prev')
+    },
+    swipeLeft: function() {
+      $(this).carousel('next')
+    }
+  });
+})
+</script>
 </html>
