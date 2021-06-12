@@ -165,16 +165,12 @@
 	padding-bottom: 5px;
 }
 
-/*.nav-bar{
-	color: black;
-}*/
-
 .nav-bar ul li{
-	padding-top: 10px;
+	padding-top: 3px;
 	padding-left: 10px;
 	display: inline-grid;
-	grid-template-columns: auto auto auto auto auto;
-	grid-column-gap: 15px;
+	grid-template-columns: auto auto auto auto auto auto auto;
+	grid-column-gap: 6px;
 	font-size: 15px;
 }
 
@@ -183,6 +179,23 @@
 	color: #5987c4;
 	font-size: 1.4em;
 	font-weight: bold;
+}
+
+.nav-bar ul li .donate{
+	color: white;
+	border: 2px solid #5987c4;
+  	border-radius: 15px 15px 15px 15px;
+  	padding-top: 2px;
+  	margin-top: 4px;
+	margin-bottom: -2px;
+	background: #5987c4;
+	box-sizing: border-box;
+  	width: 150px;
+}
+
+.nav-bar ul li .donate:hover{
+	background: white;
+	color: #5987c4; 
 }
 
 .nav-bar ul li:hover a{
@@ -201,7 +214,6 @@
 	padding: 75px;
 	grid-column-gap: 50px;
 	min-height: 400px;
-	margin-bottom: 25px;
 	background-color: #89a9d55e;
 	background-size: cover;
 }
@@ -238,11 +250,16 @@
 
 .events-desc p {
 	text-align: justify;
+	color: #5987c4;
+	font-weight: bold;
 }
 
 .events{
-	margin-top: 30px;
+	padding-top: 25px;
+	margin-top: 4px;
 	margin-bottom: 25px;
+	background: #487ba8;
+	padding-bottom: 30px;
 }
 
 .events-box {
@@ -260,6 +277,7 @@
   	padding-right: 10px;
  	border: 1px solid gray;
   	box-sizing: border-box;
+  	background: white;
 }
 
 .events-img {
@@ -429,9 +447,8 @@
 }
 
 .carousel-inner {
-  background: url(https://bryanrojasq.files.wordpress.com/2020/03/gap-bogo-2019.jpg?w=1280&h=) bottom center no-repeat;
-  min-height: 490px;
-  margin-bottom: 60px;
+  background: url('img/img10.jpg') bottom center no-repeat;
+  min-height: 490px;  
 }
 
 .carousel-caption {
@@ -459,16 +476,6 @@
 .item p {
   font-size: 25px;
   text-align: center;
-}
-
-.img-center {
-  margin: 0 auto;
-}
-
-.btn {
-  border-radius: 25px;
-  font-weight: bold;
-  letter-spacing: .25rem;
 }
 }
 
@@ -543,7 +550,6 @@
 
 .events-desc h2{
 	padding-left: 55px;
-	color: 
 }
 
 .events-desc p {
