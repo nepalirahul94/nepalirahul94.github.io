@@ -738,6 +738,11 @@
 		grid-template-columns: auto auto;
 	}
 
+	.events-box{
+		display: grid;
+		grid-template-columns: auto;
+	}
+
 	.events-info {
 		height: 540px;
 	}
