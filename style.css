@@ -477,7 +477,6 @@
   font-size: 25px;
   text-align: center;
 }
-}
 
 @media only screen and (max-width: 768px){
 
@@ -729,9 +728,9 @@
   font-weight: bold;
   letter-spacing: .25rem;
 }
+}
 
-
-@media only screen and (min-width:481px) and (max-width: 812px) {
+@media only screen and (min-width:480px) and (max-width: 812px) {
 	
 	.services {
 		display: grid;
@@ -762,6 +761,5 @@
 		grid-template-columns: auto auto;
 		grid-column-gap: 15px;
 	}
-}
 
 
