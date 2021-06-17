@@ -563,10 +563,10 @@
 	margin: 5px 0 0 0;
 }
 
-#nav-check {
+/*#nav-check {
 	display: none;
 }
-
+*/
 .nav > .nav-btn {
     display: inline-block;
     position: absolute;
@@ -907,4 +907,34 @@
 	.nav-bar {
 		display: none;
 	}
+
+	.events-box {
+		display: grid;
+		grid-template-columns: 45% 45%;
+		grid-column-gap: 10px;
+	}
+
+	.services {
+		display: grid;
+		grid-template-columns: 330px 330px;
+		grid-column-gap: 20px;
+	}
+
+	.service-box {
+		width: 330px;
+	}
+
+	.testimonials {
+		height: 600px;
+	}
+
+	.footer {
+		display: grid;
+		grid-template-columns: 45% 45%;
+		grid-column-gap: 35px;
+		padding-left: 56px;
+	}
+
+
 }
+
