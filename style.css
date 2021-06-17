@@ -762,6 +762,14 @@
   transform: scale(1.10); 
 }
 
+.testimonials {
+	height: 620px;
+}
+
+.e-card {
+	width: 64%;
+}
+
 .form-field{
 	padding-bottom: 10px;
 	padding-right: 50px;
