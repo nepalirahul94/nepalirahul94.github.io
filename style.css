@@ -14,8 +14,7 @@
 
 .top-n-section{
 	display: grid;
-	grid-template-columns: 32% 26% 23% 12%;
-	grid-column-gap: 25px;
+	grid-template-columns: auto auto auto auto;
 	padding-top: 10px;
 	padding-left: 40px;
 	padding-bottom: 10px;
@@ -69,6 +68,10 @@
 	font-size: 18px;
 	color: white;
 	font-weight: bold;
+}
+
+.top-icon ul li input {
+	padding-left: 4px;
 }
 
 .nav {
@@ -132,7 +135,7 @@
 }
 
 .top-icon{
-	padding-top: 18px;
+	padding-top: 8px;
 }
 
 .fa:hover{
@@ -142,8 +145,7 @@
 .top-icon ul li{
 	list-style: none;
 	display: inline-grid;
-	grid-template-columns: auto auto auto;
-	grid-column-gap:22px;
+	grid-template-columns: auto;
 }
 
 .logo img{
@@ -203,7 +205,7 @@
 
 .nav-bar:hover {
 	background-color: #89a9d55e;
-	height: 48px;
+	height: 49px;
 }
 
 .intro {
@@ -816,7 +818,7 @@
 	}
 }
 
-@media only screen and (min-width: 769px) and (max-width: 1281px) { 
+@media only screen and (min-width: 765px) and (max-width: 1281px) { 
 	
 	.icon-bar {
 		position: fixed;
@@ -852,13 +854,13 @@
 		color: white;
 	}
 
-	.top-icon {
+/*	.top-icon {
 		display: none;
-	}
+	}*/
 
-	.nav-bar {
+	/*.nav-bar {
 		display: none;
-	}
+	}*/
 
 	.events-box {
 		display: grid;
