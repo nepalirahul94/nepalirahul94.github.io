@@ -575,7 +575,7 @@
 /**/
 /**/
 
-@media only screen and (max-width: 768px){
+@media only screen and (min-width: 417px) and (max-width: 768px){
 
 .container {
 	margin: 5px 0 0 0;
@@ -792,7 +792,7 @@
 /**/
 /**/
 
-@media only screen and (min-width:424px) and (max-width: 812px) {
+/*@media only screen and (min-width:424px) and (max-width: 812px) {
 	
 	.services {
 		display: grid;
@@ -838,7 +838,7 @@
 		grid-column-gap: 15px;
 	}
 }
-
+*/
 @media only screen and (min-width: 765px) and (max-width: 1281px) { 
 	
 	.icon-bar {
