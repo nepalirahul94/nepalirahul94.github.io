@@ -143,9 +143,10 @@
 }
 
 .top-icon ul li{
-	list-style: none;
-	display: inline-grid;
-	grid-template-columns: auto;
+    list-style: none;
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 7px;
 }
 
 .logo img{
@@ -158,6 +159,7 @@
 .nav-bar {
 	display: flex;
 	justify-content: center;
+	height: 48px;
 }
 
 .nav-bar ul{
@@ -167,7 +169,7 @@
 }
 
 .nav-bar ul li{
-	padding-top: 3px;
+	padding-top: 2px;
 	padding-left: 10px;
 	display: inline-grid;
 	grid-template-columns: auto auto auto auto auto auto auto;
@@ -205,7 +207,7 @@
 
 .nav-bar:hover {
 	background-color: #89a9d55e;
-	height: 49px;
+	height: 48px;
 }
 
 .intro {
@@ -416,9 +418,11 @@
 	grid-column-gap: 10px;
 }
 
-.gallery-title h1{
+.gallery-title h2{
 	text-align: center;
 	padding-top: 10px;
+	color: #2869ae;
+	font-size: 48px;
 }
 
 .gallery-view{
@@ -563,6 +567,14 @@
 	width: 350px;
 }
 
+
+/*Mobile responsive*/
+/*
+*/
+/**/
+/**/
+/**/
+
 @media only screen and (max-width: 768px){
 
 .container {
@@ -594,7 +606,7 @@
 
 .parallax {
   background-image: url("img/img2.jpg");
-  min-height: 555px;
+  /*min-height: 555px;*/
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -772,12 +784,21 @@
 }
 }
 
-@media only screen and (min-width:480px) and (max-width: 812px) {
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+
+@media only screen and (min-width:424px) and (max-width: 812px) {
 	
 	.services {
 		display: grid;
 		grid-template-columns: auto auto;
 	}
+
 
 	.top-n-section {
 	display: grid;
