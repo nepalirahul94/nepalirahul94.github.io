@@ -320,8 +320,8 @@
 	padding-top: 25px;
 	padding-bottom: 25px;
 	display: grid;
-	grid-template-columns: repeat(4,255px);
-	grid-gap: 30px;
+	grid-template-columns: repeat(4,24%);
+	grid-gap: 20px;
 }
 
 .service-box img{
@@ -338,8 +338,8 @@
 	text-align: justify;
 	position: relative;
 	border-radius: 0px 14px 14px 0px;
-	height: 320px;
-	width: 255px;
+	height: 100%;
+	width: 100%;
 }
 
 .overlay {
@@ -576,7 +576,7 @@
 /**/
 /**/
 
-@media only screen and (max-width: 768px){
+@media only screen and (min-width:320px ) and (max-width: 812px){
 
 .container {
 	margin: 5px 0 0 0;
@@ -860,7 +860,7 @@
 	}
 }
 */
-@media only screen and (min-width: 769px) and (max-width: 1281px) { 
+@media only screen and (min-width: 813px) and (max-width: 1281px) { 
 	
 	.icon-bar {
 		position: fixed;
